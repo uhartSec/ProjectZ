@@ -4,17 +4,15 @@ Project Z is going to be a secure distributed CNC/C2 server for controlling/comm
 
 ## General Features
 
-1. Distributed unix terminal
+1. **Distributed unix terminal**
     * Aggregate terminal results from multiple PI's
     * Accept/Recognize multiple unix terminal commands
     * Research linux commands to expand this feature
-
-2. Distributed Process Manager
+2. **Distributed Process Manager**
     * Keep track of all running PID's
     * Aggregate results of all the processes running on the PI's
     * Start/Stop/List running processes from the cluster
-
-3. DDOS/FLOODING ENGINE
+3. **DDOS/FLOODING ENGINE**
     * Create socket connections and be able to send data to host(target)
     * Be able to measure how many GB's our flooder is hitting
     * Make all entites in the cluster send flood attacks
