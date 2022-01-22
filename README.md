@@ -2,7 +2,7 @@
 Project Z is going to be a secure distributed CNC/C2 server for controlling a raspberry PI Cluster. The main objective is to have the club ship features/tools for a raspberry pi cluster that Dr. Islam has provided for us. This platform will be used for us to test custom made malware, test web security, unit/load test web endpoints, perform SQL injections and much more. The possibilties are endless.
 
 
-## General Features
+# General Features
 
 1. **Distributed unix terminal**
     * Aggregate terminal results from multiple PI's
@@ -19,11 +19,11 @@ Project Z is going to be a secure distributed CNC/C2 server for controlling a ra
     * Select which entities send the flood attack
 
 
-## Data Repository
+# Data Repository
 The data repository is responsible for accessing any databases that our tool needs. Most likely we'll be using something simple like "sqlite3" to store and data our tool needs.The data repository will also allow caching services like redis or rabbitMQ
 
 
-# Device 
+## Device 
 
 | FieldName        | Summary                                             |
 |------------------|-----------------------------------------------------|
@@ -34,7 +34,7 @@ The data repository is responsible for accessing any databases that our tool nee
 | Alias            | This can be some type of Alias to Identify a device |
 | Shell Session    | Tells us whether web shell session is active or not |
 
-# Attack
+## Attack
 
 | FieldName    | Summary                                            |
 |--------------|----------------------------------------------------|
@@ -44,7 +44,7 @@ The data repository is responsible for accessing any databases that our tool nee
 | Type         | Type of flooding attack                            |
 | Port         | Port that the flooding attack is taking place on.  |
 
-# User
+## User
 | FieldName        | Summary                                                   |
 |------------------|-----------------------------------------------------------|
 | ID               | Unique ID to differ from other users                      |
@@ -53,15 +53,15 @@ The data repository is responsible for accessing any databases that our tool nee
 | Permission Group | Permission group of the user                              |
 | Cookie           | Cookie that stores information like (IP, session browser) |
 
-## Services
+# Services
 Services are the general features mentioned above. The unix terminal, process manager and flooding engine will all be converted to code/libraries that function independently from the data repo and controllers.
 
 
-## Controllers
+# Controllers
 The controllers are remote endpoints that the software needs to communicate with the cluster or the master. These could either be socket connections or HTTP endpoints.
 
 
-## Models
+# Models
 The models service is for all the data models needed for our tool. ER-Diagrams/UML would go in this section/folder.
 
 
