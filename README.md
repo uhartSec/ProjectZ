@@ -44,6 +44,15 @@ The data repository is responsible for accessing any databases that our tool nee
 | Type         | Type of flooding attack                            |
 | Port         | Port that the flooding attack is taking place on.  |
 
+# User
+| FieldName        | Summary                                                   |
+|------------------|-----------------------------------------------------------|
+| ID               | Unique ID to differ from other users                      |
+| Username         | Username for user account                                 |
+| Password         | Password: Hash with some crypto algo                      |
+| Permission Group | Permission group of the user                              |
+| Cookie           | Cookie that stores information like (IP, session browser) |
+
 ## Services
 Services are the general features mentioned above. The unix terminal, process manager and flooding engine will all be converted to code/libraries that function independently from the data repo and controllers.
 
