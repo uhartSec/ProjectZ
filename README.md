@@ -1,5 +1,5 @@
 # ProjectZ
-Project Z is going to be a secure distributed CNC/C2 server for controlling/commanding multiple raspberry PI instances. The main objective is to have the club ship features/tools for a raspberry pi cluster that Dr. Islam has provided for us. This platform will be used for us to test custom made malware, test web security, unit/load test web endpoints, perform SQL injects and much more. The possibilties are endless.
+Project Z is going to be a secure distributed CNC/C2 server for controlling a raspberry PI Cluster. The main objective is to have the club ship features/tools for a raspberry pi cluster that Dr. Islam has provided for us. This platform will be used for us to test custom made malware, test web security, unit/load test web endpoints, perform SQL injections and much more. The possibilties are endless.
 
 
 ## General Features
