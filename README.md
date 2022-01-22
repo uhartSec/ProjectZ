@@ -34,6 +34,16 @@ The data repository is responsible for accessing any databases that our tool nee
 | Alias            | This can be some type of Alias to Identify a device |
 | Shell Session    | Tells us whether web shell session is active or not |
 
+# Attack
+
+| FieldName    | Summary                                            |
+|--------------|----------------------------------------------------|
+| ID           | Unique ID to differ from other attack vectors      |
+| Duration     | Duration of how long the flooding task will take   |
+| Date Created | Date that the attack started                       |
+| Type         | Type of flooding attack                            |
+| Port         | Port that the flooding attack is taking place on.  |
+
 ## Services
 Services are the general features mentioned above. The unix terminal, process manager and flooding engine will all be converted to code/libraries that function independently from the data repo and controllers.
 
