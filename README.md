@@ -32,6 +32,7 @@ The data repository is responsible for accessing any databases that our tool nee
 | Mac Address      | Mac Address of the Device                           |
 | Operating System | Current Operating system of the device              |
 | Alias            | This can be some type of Alias to Identify a device |
+| Shell Session    | Tells us whether web shell session is active or not |
 
 ## Services
 Services are the general features mentioned above. The unix terminal, process manager and flooding engine will all be converted to code/libraries that function independently from the data repo and controllers.
