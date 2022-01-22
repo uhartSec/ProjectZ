@@ -22,6 +22,18 @@ Project Z is going to be a secure distributed CNC/C2 server for controlling a ra
 ## Data Repository
 The data repository is responsible for accessing any databases that our tool needs. Most likely we'll be using something simple like "sqlite3" to store and data our tool needs.The data repository will also allow caching services like redis or rabbitMQ
 
+### Models
+
+#### Device Model
+Data model for the devices 
+
+| FieldName        | Summary                                             |
+|------------------|-----------------------------------------------------|
+| Name             | Os Username of the raspberry PI/Linux Device        |
+| IP Address       | Remote/Local IPv4 or public address of the device   |
+| Mac Address      | Mac Address of the Device                           |
+| Operating System | Current Operating system of the device              |
+| Alias            | This can be some type of Alias to Identify a device |
 
 ## Services
 Services are the general features mentioned above. The unix terminal, process manager and flooding engine will all be converted to code/libraries that function independently from the data repo and controllers.
