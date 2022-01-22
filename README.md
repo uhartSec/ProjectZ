@@ -23,7 +23,8 @@ Project Z is going to be a secure distributed CNC/C2 server for controlling a ra
 The data repository is responsible for accessing any databases that our tool needs. Most likely we'll be using something simple like "sqlite3" to store and data our tool needs.The data repository will also allow caching services like redis or rabbitMQ
 
 
-## Device 
+## Device
+Data model for storing device information from other raspberry pi's in the cluster. 
 
 | FieldName        | Summary                                             |
 |------------------|-----------------------------------------------------|
@@ -35,7 +36,7 @@ The data repository is responsible for accessing any databases that our tool nee
 | Shell Session    | Tells us whether web shell session is active or not |
 
 ## Attack
-
+Data model for storing active/dormant attacks in the database. 
 | FieldName    | Summary                                            |
 |--------------|----------------------------------------------------|
 | ID           | Unique ID to differ from other attack vectors      |
@@ -45,6 +46,7 @@ The data repository is responsible for accessing any databases that our tool nee
 | Port         | Port that the flooding attack is taking place on.  |
 
 ## User
+Data model for storing users that can access the cluster. 
 | FieldName        | Summary                                                   |
 |------------------|-----------------------------------------------------------|
 | ID               | Unique ID to differ from other users                      |
