@@ -22,10 +22,8 @@ Project Z is going to be a secure distributed CNC/C2 server for controlling a ra
 ## Data Repository
 The data repository is responsible for accessing any databases that our tool needs. Most likely we'll be using something simple like "sqlite3" to store and data our tool needs.The data repository will also allow caching services like redis or rabbitMQ
 
-### Models
 
-#### Device Model
-Data model for the devices 
+# Device 
 
 | FieldName        | Summary                                             |
 |------------------|-----------------------------------------------------|
